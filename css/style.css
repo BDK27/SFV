@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Russo+One&display=swap');
+
+body{
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: multiply;
+    background-image:url("/picture/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    max-width: 960px;
+    margin: auto;
+}
+.header h1{
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0 10px 0;
+}
+.header h2{
+    color: #fff4c1;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.header p{
+    color: #e0e0e0;
+    line-height: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 0.1em;
+}
+hr{
+    border: 1px solid #665544;   
+}
+form{
+    text-align: right;
+}
+form input[search]{
+    width: 100px;
+}
+.season{
+    margin-bottom: 100px;
+}
+.title h2{
+    color:#ff7575;
+    font-size: 24px;
+    font-family: 'Russo One', sans-serif;
+    margin: 50PX 0 20px 0;
+    text-align: center;
+}
+h2 p{
+    color:#90b4d6;
+    font-size: 16px;
+    font-family: 'Russo One', sans-serif;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 300px;
+    margin: 10px;
+}
+figure{
+    background-image: 
+    url("/picture/logo.png"),
+    linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    color: #665544;
+    font-weight: bold;
+    padding: 5px 0 5px 10px ;
+    border-top: 2px solid transparent;
+    border-image:linear-gradient(37deg,red 0%,rgba(255,255,255,0) 40%);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+    font-size: 14px;
+    background-color: #d0d0d0;
+    color: #665544;
+    padding: 10px 0; 
+}
+.footer p{
+    padding-top:  5px;
+    font-size: 14px;
+}
+.alert{
+    margin-top: 100px ;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+.topBtn{
+    right: 50px;
+    bottom: 50px;
+    position: fixed;
+}
+.circle{
+    background-color: #ffd360;
+    padding: 10px;
+    width: 30px;
+    border-radius: 100%;
+}
+.circle img{
+    width: 30px;
+    height: 15px;
+    display: block;
+}
+.circle span{
+    color: #5b5b5b;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+
+/* 動畫 */
+.item img:hover{
+    transform: scale(1.05);
+}
+.item img:active{
+    transform: scale(1);
+}
+.item img:hover{
+    transform: .1s;
+}
+.circle:hover{
+    background-color: #ffaf60;
+    cursor: pointer;
+}
+
+
+
+
+
