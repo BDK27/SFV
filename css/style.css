@@ -3,7 +3,7 @@
 body{
     background-color: rgba(0,0,0,0.6);
     background-blend-mode: multiply;
-    background-image:url("/picture/background.jpg");
+    background-image:url("picture/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ h2 p{
 }
 figure{
     background-image: 
-    url("/picture/logo.png"),
+    url("picture/logo.png"),
     linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     background-repeat: no-repeat;
     background-size: cover;
