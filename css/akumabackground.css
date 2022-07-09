@@ -4,7 +4,7 @@
 body{
     /*background-color: rgba(0,0,0,0.3);*/
     background-blend-mode: multiply;
-    background-image:url("/picture/akuma/2224631.jpg");
+    background-image:url("../picture/akuma/2224631.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

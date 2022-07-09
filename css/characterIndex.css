@@ -4,7 +4,7 @@
 body{
     background-color: rgba(0,0,0,0.3);
     background-blend-mode: multiply;
-    background-image:url("/picture/Kiki-TGS_2016.png");
+    background-image:url("../picture/Kiki-TGS_2016.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
